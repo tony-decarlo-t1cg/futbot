@@ -1,0 +1,24 @@
+{
+  "name": "futbot",
+  "version": "1.0.0",
+  "description": "This is a Node.js bot for the FIFA 21 web application. You must supply the bot with the filter of the players you want to snipe (See filters.js for examples). The bot will run on a loop every 15 seconds trying to search a player. After a player is found it will attempt to buy the player, put it into your trade pile, and then sell the player. WARNING if you abuse the bot too frequently and repeatedly get locked out of your account you will get banned.",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-decarlo-t1cg/futbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony-decarlo-t1cg/futbot/issues"
+  },
+  "homepage": "https://github.com/tony-decarlo-t1cg/futbot#readme"
+}
